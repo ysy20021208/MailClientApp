@@ -44,6 +44,7 @@
 
 ## 项目结构
 
+```
 MailClientApp/
 ├── .vscode/                  # VSCode 配置目录（如调试配置、工作区设置）
 ├── BIND9.17.12.x64/          # BIND9 DNS 服务器相关文件（可能用于证书验证等）
@@ -58,6 +59,7 @@ MailClientApp/
 ├── load_der copy.py          # Python 脚本（用于加载 CRT 格式证书与 Key 私钥）
 ├── MailClientApp.jar         # 可执行的 JAR 文件（构建产物）
 └── README.md                 # 项目说明文件
+```
 
 ## 使用说明
 
