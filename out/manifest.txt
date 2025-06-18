@@ -1,0 +1,3 @@
+Main-Class: MailClient.MainFrame
+Class-Path: C:\文件\SMIME\lib\angus-activation-2.0.1.jar;C:\文件\SMIME\lib\bcjmail-jdk18on-1.80.jar;C:\文件\SMIME\lib\bcpkix-jdk18on-1.80.jar;C:\文件\SMIME\lib\bcprov-jdk18on-1.80.jar;C:\文件\SMIME\lib\bcutil-jdk18on-1.80.jar;C:\文件\SMIME\lib\jacob.jar;C:\文件\SMIME\lib\jakarta.activation-api-2.1.2.jar;C:\文件\SMIME\lib\jakarta.mail-2.0.3.jar
+
