@@ -47,12 +47,11 @@
 ```
 MailClientApp/
 ├── .vscode/                  # VSCode 配置目录（如调试配置、工作区设置）
-├── BIND9.17.12.x64/          # BIND9 DNS 服务器相关文件（可能用于证书验证等）
-├── OpenSSL-Win64/            # OpenSSL 相关文件（可能用于证书处理）
+├── BIND9.17.12.x64/          # BIND9 DNS 服务器相关文件（用于 SMIMEA 记录获取）
+├── OpenSSL-Win64/            # OpenSSL 相关文件（用于证书处理）
 ├── bin/                      # 编译输出目录（生成的 .class 文件等）
 ├── certs/                    # 证书文件目录（用于邮件签名、加密等）
 ├── lib/                      # 第三方库目录（如 Jakarta Mail、BouncyCastle 等）
-├── out/                      # 可能的输出目录（具体用途待确认）
 ├── src/                      # 源代码目录
 ├── build.ps1                 # PowerShell 构建脚本（用于编译和打包）
 ├── load_der.py               # Python 脚本（用于加载 CRT 格式证书）
